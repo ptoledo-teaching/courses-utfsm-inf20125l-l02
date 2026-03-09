@@ -1,8 +1,13 @@
 # L02: Uso de la Terminal
 
-Esta sesión introduce el entorno de trabajo que se usará durante todo el semestre: la máquina virtual Lubuntu y la terminal Linux. El dominio de la terminal es una habilidad fundamental para cualquier desarrollador de software.
+Esta sesión introduce el entorno de trabajo que se usará durante todo el semestre: la terminal Linux. El dominio de la terminal es una habilidad fundamental para cualquier desarrollador de software.
 
 En este laboratorio, se ha tomado el testamento de don Federico Santa María Carrera, del que deriva la actual **Universidad Técnica Federico Santa María**. El testamento ha sido dividido por párrafos y distribuido en un árbol de archivos con una estructura específica. Siguiendo las instrucciones, usted deberá ser capaz de reconstruir el testamento a partir de los fragmentos, aplicando comandos de terminal para inspeccionar, modificar y transformar el árbol de archivos. Al finalizar, un script de verificación comprobará que el resultado es correcto.
+
+## Prerrequisitos
+
+- Tener sesión iniciada en la VM Lubuntu del equipo asignado
+- Conocer el propio RUT (sin puntos ni guión, dígito verificador en mayúscula si es K)
 
 ## Objetivo general
 
@@ -20,11 +25,6 @@ En este laboratorio, se ha tomado el testamento de don Federico Santa María Car
 ## Metodología
 
 A lo largo de este procedimiento se describirán múltiples comandos y su forma de uso. Para cada uno de ellos se debe leer la explicación y ejecutar los ejemplos en la terminal. Siguiendo paso a paso la metodología, el objetivo final es aplicar todos los comandos sobre el árbol de trabajo personal para que el script `.check.sh` retorne que el resultado es correcto.
-
-## Prerrequisitos
-
-- Tener sesión iniciada en la VM Lubuntu del equipo asignado
-- Conocer el propio RUT (sin puntos ni guión, dígito verificador en mayúscula si es K)
 
 ## Árbol de trabajo personal
 
