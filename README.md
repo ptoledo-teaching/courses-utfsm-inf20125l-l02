@@ -194,14 +194,14 @@ Ejemplos de formato:
 El archivo se descarga desde:
 
 ```
-https://ptoledo.org/courses/inf20125l/20261/l02/<rut>.tar.gz
+https://ptoledo.org/courses/utfsm/inf20125l/20261/l02/<rut>.tar.gz
 ```
 
 Reemplazar `<rut>` por el RUT propio con el formato indicado:
 
 ```bash
 cd ~                                                                # Ir al directorio personal
-wget https://ptoledo.org/courses/inf20125l/20261/l02/<rut>.tar.gz   # Descargar el archivo
+wget https://ptoledo.org/courses/utfsm/inf20125l/20261/l02/<rut>.tar.gz   # Descargar el archivo
 ls -lh                                                              # Verificar que el archivo se descargó correctamente
 ```
 
