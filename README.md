@@ -1,19 +1,21 @@
 # L02: Uso de la Terminal
 
+## Introducción
+
 Esta sesión introduce el entorno de trabajo que se usará durante todo el semestre: la terminal Linux. El dominio de la terminal es una habilidad fundamental para cualquier desarrollador de software.
 
 En este laboratorio, se ha tomado el testamento de don Federico Santa María Carrera, del que deriva la actual **Universidad Técnica Federico Santa María**. El testamento ha sido dividido por párrafos y distribuido en un árbol de archivos con una estructura específica. Siguiendo las instrucciones, usted deberá ser capaz de reconstruir el testamento a partir de los fragmentos, aplicando comandos de terminal para inspeccionar, modificar y transformar el árbol de archivos. Al finalizar, un script de verificación comprobará que el resultado es correcto.
 
-## Prerrequisitos
+### Prerrequisitos
 
 - Tener sesión iniciada en la VM Lubuntu del equipo asignado
 - Conocer el propio RUT (sin puntos ni guión, dígito verificador en mayúscula si es K)
 
-## Objetivo general
+### Objetivo general
 
 - Dado un árbol de archivos con una estructura y contenido específicos, aplicar comandos de terminal para inspeccionarlo, modificarlo y transformarlo hasta obtener un resultado final que cumpla con las condiciones indicadas en el script de verificación.
 
-## Objetivos específicos
+### Objetivos específicos
 
 - Ubicarse en el sistema de archivos (`pwd`, `ls`, `cd`)
 - Descargar y descomprimir archivos desde la terminal (`wget`, `tar`)
@@ -22,19 +24,16 @@ En este laboratorio, se ha tomado el testamento de don Federico Santa María Car
 - Manipular archivos y directorios (`cp`, `mv`, `rm`, `mkdir`, `find`)
 - Comprender y modificar permisos de archivos (`chmod`)
 
-## Metodología
+### Metodología
 
 A lo largo de este procedimiento se describirán múltiples comandos y su forma de uso. Para cada uno de ellos se debe leer la explicación y ejecutar los ejemplos en la terminal. Siguiendo paso a paso la metodología, el objetivo final es aplicar todos los comandos sobre el árbol de trabajo personal para que el script `.check.sh` retorne que el resultado es correcto.
 
-## Árbol de trabajo personal
+### Contexto
 
 Cada estudiante trabaja con un árbol de directorios propio, descargable desde una url específica. La estructura y la dificultad de desarrollo es la misma para todos, pero los nombres de archivos y contenidos varían.
 
-### Estructura del árbol
-
-Las instrucciones para obtener el arbol de directorios están en la sección 5, pero se describen al inicio para facilitar el entendimiento futuro.
-
-El arbol de directorios que se utilizará como parte de este laboratoriio tiene la siguiente forma:
+Las instrucciones para obtener el árbol de directorios están en la sección 5, pero se describen al inicio para facilitar el entendimiento futuro. 
+El árbol de directorios que se utilizará como parte de este laboratorio tiene la siguiente forma:
 
 ```
 lab02/
@@ -84,7 +83,7 @@ Script de verificación del resultado final. Este script concatena los diferente
 
 Hash es el nombre que recibe el resultado de aplicar una función matemática a un conjunto de datos, generando una cadena de caracteres única que representa ese conjunto. Si el contenido del archivo cambia, aunque sea mínimamente, el hash resultante también cambiará, lo que permite verificar la integridad del archivo.
 
-## Comandos
+## Actividad
 
 ### 1. `pwd`
 
