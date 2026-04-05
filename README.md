@@ -6,7 +6,7 @@ Esta sesión introduce el entorno de trabajo que se usará durante todo el semes
 
 En este laboratorio, se ha tomado el testamento de don Federico Santa María Carrera, del que deriva la actual **Universidad Técnica Federico Santa María**. El testamento ha sido dividido por párrafos y distribuido en un árbol de archivos con una estructura específica. Siguiendo las instrucciones, usted deberá ser capaz de reconstruir el testamento a partir de los fragmentos, aplicando comandos de terminal para inspeccionar, modificar y transformar el árbol de archivos. Al finalizar, un script de verificación comprobará que el resultado es correcto.
 
-### Prerrequisitos
+### Pre-requisitos
 
 - Tener sesión iniciada en la VM Lubuntu del equipo asignado
 - Conocer el propio RUT (sin puntos ni guión, dígito verificador en mayúscula si es K)
